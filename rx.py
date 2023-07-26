@@ -16,3 +16,4 @@ ticc1101._setRXState()
 while True:
     ticc1101._setRXState()
     ticc1101.recvData()
+    print(ticc1101.recvData())
